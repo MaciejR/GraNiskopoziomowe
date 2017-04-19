@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="Game" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/Game" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+					<Add directory="C:/allegro5/include" />
+				</Compiler>
+				<Linker>
+					<Add library="C:\allegro5\lib\liballegro_acodec-5.0.8-md.a" />
+					<Add library="C:\allegro5\lib\liballegro_acodec-5.0.8-md-debug.a" />
+					<Add library="C:\allegro5\lib\liballegro_acodec-5.0.8-mt.a" />
+					<Add library="C:\allegro5\lib\liballegro_acodec-5.0.8-mt-debug.a" />
+					<Add library="C:\allegro5\lib\liballegro_acodec-5.0.8-static-md.a" />
+					<Add library="C:\allegro5\lib\liballegro_acodec-5.0.8-static-md-debug.a" />
+					<Add library="C:\allegro5\lib\liballegro_acodec-5.0.8-static-mt.a" />
+					<Add library="C:\allegro5\lib\liballegro_acodec-5.0.8-static-mt-debug.a" />
+					<Add library="C:\allegro5\lib\liballegro_audio-5.0.8-md.a" />
+					<Add library="C:\allegro5\lib\liballegro_audio-5.0.8-md-debug.a" />
+					<Add library="C:\allegro5\lib\liballegro_audio-5.0.8-mt.a" />
+					<Add library="C:\allegro5\lib\liballegro_audio-5.0.8-mt-debug.a" />
+					<Add library="C:\allegro5\lib\liballegro_audio-5.0.8-static-md.a" />
+					<Add library="C:\allegro5\lib\liballegro_audio-5.0.8-static-md-debug.a" />
+					<Add library="C:\allegro5\lib\liballegro_audio-5.0.8-static-mt.a" />
+					<Add library="C:\allegro5\lib\liballegro_audio-5.0.8-static-mt-debug.a" />
+					<Add library="C:\allegro5\lib\liballegro_color-5.0.8-md.a" />
+					<Add library="C:\allegro5\lib\liballegro_color-5.0.8-md-debug.a" />
+					<Add library="C:\allegro5\lib\liballegro_color-5.0.8-mt.a" />
+					<Add library="C:\allegro5\lib\liballegro_color-5.0.8-mt-debug.a" />
+					<Add library="C:\allegro5\lib\liballegro_color-5.0.8-static-md.a" />
+					<Add library="C:\allegro5\lib\liballegro_color-5.0.8-static-md-debug.a" />
+					<Add library="C:\allegro5\lib\liballegro_color-5.0.8-static-mt.a" />
+					<Add library="C:\allegro5\lib\liballegro_color-5.0.8-static-mt-debug.a" />
+					<Add library="C:\allegro5\lib\liballegro_dialog-5.0.8-md.a" />
+					<Add library="C:\allegro5\lib\liballegro_dialog-5.0.8-md-debug.a" />
+					<Add library="C:\allegro5\lib\liballegro_dialog-5.0.8-mt.a" />
+					<Add library="C:\allegro5\lib\liballegro_dialog-5.0.8-mt-debug.a" />
+					<Add library="C:\allegro5\lib\liballegro_dialog-5.0.8-static-md.a" />
+					<Add library="C:\allegro5\lib\liballegro_dialog-5.0.8-static-md-debug.a" />
+					<Add library="C:\allegro5\lib\liballegro_dialog-5.0.8-static-mt.a" />
+					<Add library="C:\allegro5\lib\liballegro_dialog-5.0.8-static-mt-debug.a" />
+					<Add library="C:\allegro5\lib\liballegro_font-5.0.8-md.a" />
+					<Add library="C:\allegro5\lib\liballegro_font-5.0.8-md-debug.a" />
+					<Add library="C:\allegro5\lib\liballegro_font-5.0.8-mt.a" />
+					<Add library="C:\allegro5\lib\liballegro_font-5.0.8-mt-debug.a" />
+					<Add library="C:\allegro5\lib\liballegro_font-5.0.8-static-md.a" />
+					<Add library="C:\allegro5\lib\liballegro_font-5.0.8-static-md-debug.a" />
+					<Add library="C:\allegro5\lib\liballegro_font-5.0.8-static-mt.a" />
+					<Add library="C:\allegro5\lib\liballegro_font-5.0.8-static-mt-debug.a" />
+					<Add library="C:\allegro5\lib\liballegro_image-5.0.8-md.a" />
+					<Add library="C:\allegro5\lib\liballegro_image-5.0.8-md-debug.a" />
+					<Add library="C:\allegro5\lib\liballegro_image-5.0.8-mt.a" />
+					<Add library="C:\allegro5\lib\liballegro_image-5.0.8-mt-debug.a" />
+					<Add library="C:\allegro5\lib\liballegro_image-5.0.8-static-md.a" />
+					<Add library="C:\allegro5\lib\liballegro_image-5.0.8-static-md-debug.a" />
+					<Add library="C:\allegro5\lib\liballegro_image-5.0.8-static-mt.a" />
+					<Add library="C:\allegro5\lib\liballegro_image-5.0.8-static-mt-debug.a" />
+					<Add library="C:\allegro5\lib\liballegro_memfile-5.0.8-md.a" />
+					<Add library="C:\allegro5\lib\liballegro_memfile-5.0.8-md-debug.a" />
+					<Add library="C:\allegro5\lib\liballegro_memfile-5.0.8-mt.a" />
+					<Add library="C:\allegro5\lib\liballegro_memfile-5.0.8-mt-debug.a" />
+					<Add library="C:\allegro5\lib\liballegro_memfile-5.0.8-static-md.a" />
+					<Add library="C:\allegro5\lib\liballegro_memfile-5.0.8-static-md-debug.a" />
+					<Add library="C:\allegro5\lib\liballegro_memfile-5.0.8-static-mt.a" />
+					<Add library="C:\allegro5\lib\liballegro_memfile-5.0.8-static-mt-debug.a" />
+					<Add library="C:\allegro5\lib\liballegro_physfs-5.0.8-md.a" />
+					<Add library="C:\allegro5\lib\liballegro_physfs-5.0.8-md-debug.a" />
+					<Add library="C:\allegro5\lib\liballegro_physfs-5.0.8-mt.a" />
+					<Add library="C:\allegro5\lib\liballegro_physfs-5.0.8-mt-debug.a" />
+					<Add library="C:\allegro5\lib\liballegro_physfs-5.0.8-static-md.a" />
+					<Add library="C:\allegro5\lib\liballegro_physfs-5.0.8-static-md-debug.a" />
+					<Add library="C:\allegro5\lib\liballegro_physfs-5.0.8-static-mt.a" />
+					<Add library="C:\allegro5\lib\liballegro_physfs-5.0.8-static-mt-debug.a" />
+					<Add library="C:\allegro5\lib\liballegro_primitives-5.0.8-md.a" />
+					<Add library="C:\allegro5\lib\liballegro_primitives-5.0.8-md-debug.a" />
+					<Add library="C:\allegro5\lib\liballegro_primitives-5.0.8-mt.a" />
+					<Add library="C:\allegro5\lib\liballegro_primitives-5.0.8-mt-debug.a" />
+					<Add library="C:\allegro5\lib\liballegro_primitives-5.0.8-static-md.a" />
+					<Add library="C:\allegro5\lib\liballegro_primitives-5.0.8-static-md-debug.a" />
+					<Add library="C:\allegro5\lib\liballegro_primitives-5.0.8-static-mt.a" />
+					<Add library="C:\allegro5\lib\liballegro_primitives-5.0.8-static-mt-debug.a" />
+					<Add library="C:\allegro5\lib\liballegro_ttf-5.0.8-md.a" />
+					<Add library="C:\allegro5\lib\liballegro_ttf-5.0.8-md-debug.a" />
+					<Add library="C:\allegro5\lib\liballegro_ttf-5.0.8-mt.a" />
+					<Add library="C:\allegro5\lib\liballegro_ttf-5.0.8-mt-debug.a" />
+					<Add library="C:\allegro5\lib\liballegro_ttf-5.0.8-static-md.a" />
+					<Add library="C:\allegro5\lib\liballegro_ttf-5.0.8-static-md-debug.a" />
+					<Add library="C:\allegro5\lib\liballegro_ttf-5.0.8-static-mt.a" />
+					<Add library="C:\allegro5\lib\liballegro_ttf-5.0.8-static-mt-debug.a" />
+					<Add library="C:\allegro5\lib\liballegro-5.0.8-md.a" />
+					<Add library="C:\allegro5\lib\liballegro-5.0.8-md-debug.a" />
+					<Add library="C:\allegro5\lib\liballegro-5.0.8-monolith-md.a" />
+					<Add library="C:\allegro5\lib\liballegro-5.0.8-monolith-md-debug.a" />
+					<Add library="C:\allegro5\lib\liballegro-5.0.8-monolith-mt.a" />
+					<Add library="C:\allegro5\lib\liballegro-5.0.8-monolith-mt-debug.a" />
+					<Add library="C:\allegro5\lib\liballegro-5.0.8-monolith-static-md.a" />
+					<Add library="C:\allegro5\lib\liballegro-5.0.8-monolith-static-md-debug.a" />
+					<Add library="C:\allegro5\lib\liballegro-5.0.8-monolith-static-mt.a" />
+					<Add library="C:\allegro5\lib\liballegro-5.0.8-monolith-static-mt-debug.a" />
+					<Add library="C:\allegro5\lib\liballegro-5.0.8-mt.a" />
+					<Add library="C:\allegro5\lib\liballegro-5.0.8-mt-debug.a" />
+					<Add library="C:\allegro5\lib\liballegro-5.0.8-static-md.a" />
+					<Add library="C:\allegro5\lib\liballegro-5.0.8-static-md-debug.a" />
+					<Add library="C:\allegro5\lib\liballegro-5.0.8-static-mt.a" />
+					<Add library="C:\allegro5\lib\liballegro-5.0.8-static-mt-debug.a" />
+					<Add library="C:\allegro5\lib\libdumb-0.9.3-static-md.a" />
+					<Add library="C:\allegro5\lib\libdumb-0.9.3-static-md-debug.a" />
+					<Add library="C:\allegro5\lib\libdumb-0.9.3-static-mt.a" />
+					<Add library="C:\allegro5\lib\libdumb-0.9.3-static-mt-debug.a" />
+					<Add library="C:\allegro5\lib\libFLAC-1.2.1-static-md.a" />
+					<Add library="C:\allegro5\lib\libFLAC-1.2.1-static-md-debug.a" />
+					<Add library="C:\allegro5\lib\libFLAC-1.2.1-static-mt.a" />
+					<Add library="C:\allegro5\lib\libFLAC-1.2.1-static-mt-debug.a" />
+					<Add library="C:\allegro5\lib\libfreetype-2.4.8-static-md.a" />
+					<Add library="C:\allegro5\lib\libfreetype-2.4.8-static-md-debug.a" />
+					<Add library="C:\allegro5\lib\libfreetype-2.4.8-static-mt.a" />
+					<Add library="C:\allegro5\lib\libfreetype-2.4.8-static-mt-debug.a" />
+					<Add library="C:\allegro5\lib\libogg-1.2.1-static-md.a" />
+					<Add library="C:\allegro5\lib\libogg-1.2.1-static-md-debug.a" />
+					<Add library="C:\allegro5\lib\libogg-1.2.1-static-mt.a" />
+					<Add library="C:\allegro5\lib\libogg-1.2.1-static-mt-debug.a" />
+					<Add library="C:\allegro5\lib\libopenal-1.14-static-md.a" />
+					<Add library="C:\allegro5\lib\libopenal-1.14-static-md-debug.a" />
+					<Add library="C:\allegro5\lib\libopenal-1.14-static-mt.a" />
+					<Add library="C:\allegro5\lib\libopenal-1.14-static-mt-debug.a" />
+					<Add library="C:\allegro5\lib\libvorbis-1.3.2-static-md.a" />
+					<Add library="C:\allegro5\lib\libvorbis-1.3.2-static-md-debug.a" />
+					<Add library="C:\allegro5\lib\libvorbis-1.3.2-static-mt.a" />
+					<Add library="C:\allegro5\lib\libvorbis-1.3.2-static-mt-debug.a" />
+					<Add library="C:\allegro5\lib\libvorbisfile-1.3.2-static-md.a" />
+					<Add library="C:\allegro5\lib\libvorbisfile-1.3.2-static-md-debug.a" />
+					<Add library="C:\allegro5\lib\libvorbisfile-1.3.2-static-mt.a" />
+					<Add library="C:\allegro5\lib\libvorbisfile-1.3.2-static-mt-debug.a" />
+					<Add library="C:\allegro5\lib\libzlib-1.2.5-static-md.a" />
+					<Add library="C:\allegro5\lib\libzlib-1.2.5-static-md-debug.a" />
+					<Add library="C:\allegro5\lib\libzlib-1.2.5-static-mt.a" />
+					<Add library="C:\allegro5\lib\libzlib-1.2.5-static-mt-debug.a" />
+				</Linker>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/Game" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+		</Compiler>
+		<Unit filename="config.cpp" />
+		<Unit filename="config.h" />
+		<Unit filename="gracz.cpp" />
+		<Unit filename="gracz.h" />
+		<Unit filename="main.cpp" />
+		<Unit filename="menu.cpp" />
+		<Unit filename="menu.h" />
+		<Unit filename="mysz.cpp" />
+		<Unit filename="mysz.h" />
+		<Extensions>
+			<code_completion />
+			<envvars />
+			<debugger />
+			<lib_finder disable_auto="1" />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>

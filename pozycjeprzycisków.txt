@@ -1,0 +1,12 @@
+pozycje nowagra:
+x=(530,752)
+y=(100,155)
+pozycje wyjście
+x=(530,752)
+y=(180,235)
+
+if ( klikniecie && xMyszki>=530 && xMyszki<=752 && yMyszki>=100 && yMyszki<=155).
+{
+gra=1;
+}
+if ( klikniecie && xMyszki>=530 && xMyszki<=752 && yMyszki>=180 && yMyszki<=235)
